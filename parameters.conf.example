@@ -34,3 +34,6 @@
 <exception host="*@kitana.greycadet.com" reason="Oper's hostname">
 <exception host="*@raiden.greycadet.com" reason="Oper's hostname">
 <exception host="*@sindel.greycadet.com" reason="Oper's hostname">
+
+#Modules
+<define name="cloakkey" value="">
