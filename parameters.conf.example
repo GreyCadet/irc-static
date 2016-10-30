@@ -36,4 +36,10 @@
 <exception host="*@sindel.greycadet.com" reason="Oper's hostname">
 
 #Modules
+<define name="cgihostpassword" value="">
+<define name="cgihostmaska" value="">
+<define name="cgihostmaskb" value="">
+<define name="cgihostmaskc" value="">
+
 <define name="cloakkey" value="">
+
