@@ -1,0 +1,37 @@
+# # # # # # # # # # # # # # # # # # # # # # # #
+#                    Links                    #
+# Make sure to fill the sendpass and recvpass #
+# fields for all servers.                     #
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+<link
+      name="raiden.greycadet.com"
+      ipaddr="raiden.greycadet.com"
+      port="6900"
+      timeout="300"
+      ssl="gnutls"
+      bind=""
+      statshidden="no"
+      hidden="no"
+      sendpass=""
+      recvpass="">
+
+<link name="sindel.greycadet.com"
+      ipaddr="sindel.greycadet.com"
+      port="6900"
+      timeout="300"
+      ssl="gnutls"
+      bind=""
+      statshidden="no"
+      hidden="no"
+      sendpass=""
+      recvpass="">
+
+<autoconnect 
+      period="60"
+      server="raiden.greycadet.com">
+      
+<autoconnect 
+      period="300"
+      server="raiden.greycadet.com sindel.greycadet.com">
+
